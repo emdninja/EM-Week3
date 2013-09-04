@@ -1,28 +1,72 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
-
-@font-sans-family: 'PT Sans', sans-serif;
-
-body{
-	font-family: @font-sans-family;
-}
-
-.body-shadow{
-	.text-shadow();
-	font-weight: 700;
+.slidesjs-next, .slidesjs-previous{
+	
+	
 	color:#fff;
+	text-decoration: none;
+	position: absolute;
+	top:50%;
+	z-index: 100;
+	font-size: 100px;
 }
 
-h1{
-	.body-shadow;
-	font-weight: 700;
+.slidesjs-next{
+	right:80%;
 }
 
-h2{
-	.body-shadow;
-	font-weight: 700;
-	font-size: 20px;
+
+
+// {
+// 	width: 60px;
+// 	height: 60px;
+// 	background-color: #000;
+// 	color:#fff;
+// }
+
+
+.slidesjs-pagination{
+	list-style: none;
 }
 
-p{
-	.body-shadow;
+.slidesjs-pagination-item{
+	float:left;
+	display: inline-block;
+	margin-right: 10px;
 }
+
+.slidesjs-pagination-item a{
+	text-decoration: none;
+	color:#000;
+	font-size: 8px;
+}
+
+
+.slidesjs-pagination-item a.active{
+	color:#ff0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

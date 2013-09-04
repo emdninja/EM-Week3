@@ -1,6 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
-
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
 body {
   font-family: 'PT Sans', sans-serif;
 }
@@ -1519,27 +1517,31 @@ a .icon-flip-vertical:before {
 .icon-renren:before {
   content: "\f18b";
 }
-body {
-  font-family: 'PT Sans', sans-serif;
-}
-.body-shadow {
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
-  font-weight: 700;
+.slidesjs-next,
+.slidesjs-previous {
   color: #fff;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+  font-size: 100px;
 }
-h1 {
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
-  color: #fff;
-  font-weight: 700;
+.slidesjs-next {
+  right: 80%;
 }
-h2 {
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
-  color: #fff;
-  font-weight: 700;
-  font-size: 20px;
+.slidesjs-pagination {
+  list-style: none;
 }
-p {
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
-  font-weight: 700;
-  color: #fff;
+.slidesjs-pagination-item {
+  float: left;
+  display: inline-block;
+  margin-right: 10px;
+}
+.slidesjs-pagination-item a {
+  text-decoration: none;
+  color: #000;
+  font-size: 8px;
+}
+.slidesjs-pagination-item a.active {
+  color: #ff0000;
 }
